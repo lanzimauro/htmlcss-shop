@@ -1,57 +1,48 @@
-.container {
-    background-color: white;
-    width: 1000px;
-    height: 900px;
-    position: relative;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.prodotto {
+body{
+    padding:10px;
+}
+
+.container {
+    width: 80%;
+}
+
+.box {
+    position: relative;
+    display: inline-block;
     background-color: lightgray;
     width: 300px;
     height: 400px;
 }
 
-.uno {
-    position: relative;
-    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fc.static-nike.com%2Fa%2Fimages%2Ft_PDP_1280_v1%2Ff_auto%2Fyledyxw7bnf6q2gds9r1%2Fscarpa-air-max-270-ptpZcg.jpg&f=1&nofb=1);
-    background-size: cover;
+.sconto {
+    background-color: green;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
-.due {
-    position: relative;
-    bottom:400px;
-    left: 300px;
-    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fc.static-nike.com%2Fa%2Fimages%2Ft_PDP_1280_v1%2Ff_auto%2Fri1pr5ogghi8fejhfc9q%2Fscarpa-react-element-55-DRf8mz.jpg&f=1&nofb=1);
-    background-size: cover;
+.cuore {
+    color: lightgray;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    font-size: 30px;
 }
 
-.tre {
-    position: relative;
-    bottom: 800px;
-    left: 600px;
-    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fc.static-nike.com%2Fa%2Fimages%2Ft_PDP_1280_v1%2Ff_auto%2Fph6v8fcswvvqbfq44jdr%2Fscarpa-air-max-97-z3TlrlVN.jpg&f=1&nofb=1);
-    background-size: cover;
+.cuore:hover {
+    color: red;
+    cursor: pointer;
 }
 
-.quattro {
-    position: relative;
-    bottom:800px;
-    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fc.static-nike.com%2Fa%2Fimages%2Ft_PDP_1280_v1%2Ff_auto%2Foayhdfynrmutq2bcsmpp%2Fscarpa-air-max-270-ntl0RF.jpg&f=1&nofb=1);
-    background-size: cover;
-}
-
-.cinque {
-    position: relative;
-    bottom: 1200px;
-    left: 300px;
-    background-image:url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fc.static-nike.com%2Fa%2Fimages%2Ft_PDP_1280_v1%2Ff_auto%2Fp2vzjgbe1gpuz1tylftl%2Fscarpa-air-max-270-ptpZcg.jpg&f=1&nofb=1);
-    background-size: cover;
-}
-
-.sei {
-    position: relative;
-    bottom:1600px;
-    left:600px;
-    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fc.static-nike.com%2Fa%2Fimages%2Ft_PDP_1280_v1%2Ff_auto%2Fp2vzjgbe1gpuz1tylftl%2Fscarpa-air-max-270-ptpZcg.jpg&f=1&nofb=1);
-    background-size: cover;
+.scontored {
+    background-color: red;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
